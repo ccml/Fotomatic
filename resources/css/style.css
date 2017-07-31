@@ -283,13 +283,15 @@ header .mobile {
   }
 
   .feature {
-	width: 100%;
+	width: auto;
     margin: 0;
     padding: 1rem 1rem 1.875rem 1rem;
   }
   
   .feature .content {
-	text-align: center;
+	width: 100%;
+	flex-direction: column;
+    text-align: center;
   }
   
   .feature h2 {
